@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
 * {
-margin: 0;
-padding: 0;
-border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
 
-font-family: 'Noto Sans JP', sans-serif;
-background: white;
-color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: white;
+  color: white;
 }
 
 header {
-padding: 18px;
-background: rgba(61, 177, 70, 0.582);
+  padding: 18px;
+  background: rgba(61, 177, 70, 0.582);
 
+}
+#novoprojeto {
+  margin-left: 1%;
 }
 .menu a {
 color: white !important;
