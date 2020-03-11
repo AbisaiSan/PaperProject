@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+
+font-family: 'Noto Sans JP', sans-serif;
+background: white;
+color: white;
+}
+
+header {
+padding: 18px;
+background: rgba(61, 177, 70, 0.582);
+
+}
+.menu a {
+color: white !important;
+font-size: 16px;
+line-height: 10px;
+margin: 0 10px;
+text-decoration: none !important;
+font-style: bold;
+
+}
+
+
+#search {
+border-radius: 8px;
+opacity: 0.5;
+
+}
+
+#logo {
+text-align: center !important;
+text-decoration: none;
+padding-left: 27%;
+color: white;
+
+}
+
+#plus {
+text-align: center;
+color: white;
+padding-left: 42%;
+}
+
+.quadrosTarefas {
+margin-top: 50px;
+}
+
+#tarefaTopo h2 {
+margin-top: 22px !important;
+text-align: center ;
+margin: 0 auto;
+}
+
+#card1 {
+margin: 0 auto;
+}
+
+#card2 {
+margin: 0 auto;
+}
+
+#card3 {
+margin: 0 auto;
+}
+
+.footer {
+width: 100%;
+height: 60px;
+background-color:rgba(61, 177, 70, 0.582) ;
+margin-top: 100px;
+text-align: center;
+
+}
+
+.footer span {
+margin-top: 15px !important;
+color: white;
+font-size: 18px;
+}
+
+
+
+/*Telas 320px a 812px*/
+@media (min-width: 320px) and (max-width: 812px) {
+#plus {
+padding-left: 11%;
+
+} }
+@media (min-width: 320px) and (max-width: 812px) {
+#conf {
+display: none;
+
+} }
+@media (min-width: 320px) and (max-width: 812px) {
+#card2, #card3  {
+display: none;
+
+} }
+
+@media (min-width: 320px) and (max-width: 812px) {
+#logo {
+display: none;
+} }
+
+/*Telas de 411px*/
+@media (min-width: 411px) and (max-width: 731px) {
+#plus {
+padding-left: 19%;
+
+} }
+@media (min-width: 411px) and (max-width: 731px) {
+#card2, #card3  {
+display: none;
+
+} }
+
+@media (min-width: 411px) and (max-width: 731px) {
+#logo {
+display: none;
+} }
+
+
+/*
+Telas de 912px
+*/
+@media (min-width: 912px) {
+#plus {
+padding-left: 32%;
+}
+}
+@media (min-width: 912px) {
+#logo {
+padding-left: 15%;
+}
+}
+
+@media (min-width: 912px) {
+.quadrosTarefas {
+padding-left: 15%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+#plus {
+padding-left: 55%;
+
+} }
+@media (min-width: 768px) and (max-width: 1024px) {
+.quadrosTarefas {
+padding-left: 29%;
+} }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+#plus {
+padding-left: 37%;
+} }
+@media (min-width: 1024px) and (max-width: 1366px) {
+.quadrosTarefas {
+padding-left: 19%;
+} }
+@media (min-width: 1024px) and (max-width: 1366px) {
+#card3  {
+display: none;
+
+} }
+
+@media (min-width: 1200px) {
+#plus {
+padding-left: 43.5%;
+}
+}
+@media (min-width: 1200px) {
+#logo {
+padding-left: 32%;
+}
+}
+@media (min-width: 1200px) {
+.quadrosTarefas {
+margin-top: 5%;
+padding-left: 19%;
+
+}
+}
+@media (min-width: 1200px) {
+.footer {
+margin-top: 15.5%;
+text-align: center;
+
+}
+}
+
+@media (min-width: 1080px) and (max-width: 1920px) {
+#plus {
+padding-left: 42%;
+}
+}
+@media (min-width: 1080px) and (max-width: 1920px) {
+#logo {
+padding-left: 27%;
+
+}
+}
+@media (min-width: 1080px) and (max-width: 1920px) {
+.quadrosTarefas {
+margin-top: 5%;
+padding-left: 1%;
+
+}
+}
+@media (min-width: 1080px) and (max-width: 1920px) {
+.footer {
+margin-top: 6.5%;
+text-align: center;
+
+}
+}
+
+
+
+
