@@ -27,3 +27,11 @@ Desafio proposto como teste com objetivo de construir um gerenciador que amarzen
 	° CSS3
 
 	° Bootstrap v4.4.1
+
+# Atualizações Futuras
+
+Sera inserido as funcionalides, no momento a aplicação conta apenas com o Front-end.
+
+Sera inserido as funcionalides de Inserir, Editar e Excluir.
+
+Também ser inserido uma função de lembretes de proximidade da data definida no projeto
